@@ -1,0 +1,13 @@
+{
+  
+  "type": "Content",
+  "modid": "foodcube",
+  "name": "Foodcube",
+  "authors": [ "amo020" ],
+  "description": "Introduces the Kenshi Foodcube, a compact and efficient food source for survivalists.",
+  "version": "0.1.0",
+  "dependencies": {
+    "game": "1.22.2",
+    "survival": "1.22.2"
+  }
+}
