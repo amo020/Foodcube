@@ -11,14 +11,14 @@
     {
       "name": "GroundStorable",
       "properties": {
-        "layout": "Quadrants",
+        "layout": "Cubic",
         "collisionBox": {
           "x1": 0,
           "y1": 0,
           "z1": 0,
-          "x2": 1,
-          "y2": 0.125,
-          "z2": 1
+          "x2": 0.333,
+          "y2": 0.333,
+          "z2": 0.333
         }
       }
     }

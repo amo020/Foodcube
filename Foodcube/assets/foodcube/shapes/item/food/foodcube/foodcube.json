@@ -1,0 +1,22 @@
+{
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "elements": [
+    {
+      "name": "cube",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#foodcube"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#foodcube"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#foodcube"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#foodcube"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#foodcube"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#foodcube"}
+      }
+    }
+  ],
+  "textures": {
+    "foodcube": "item/food/grain/foodcube"
+  }
+}
