@@ -1,0 +1,25 @@
+{
+  "ingredientPattern": "VUV,VDV,VVV",
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "ingredients": {
+    "V": {
+      "type": "item",
+      "code": "game:food-vegetable-*"
+    },
+    "D": {
+      "type": "item",
+      "code": "game:dough-*"
+    },
+    "U": {
+      "type": "item",
+      "isTool": true,
+      "tags": ["tool-knife", "tool-cleaver"]
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "game:rawfoodcube"
+  }
+}

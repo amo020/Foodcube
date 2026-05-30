@@ -1,0 +1,107 @@
+{
+  "code": "foodcube",
+  "class": "ItemFood",
+  "maxstacksizeByType": {
+    "*": 64
+  },
+  "variantgroups": [
+    {"code": "state", "states": ["perfect", "burnt"]}
+  ],
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "shape": {
+    "base": "item/food/foodcube/foodcube"
+  },
+  "texturesbytype": {
+    "foodcube-perfect": {
+      "foodcube": {
+        "base": "item/food/grain/foodcube"
+      }
+    },
+    "foodcube-burnt": {
+      "foodcube": {
+        "base": "item/food/grain/foodcube_burnt"
+      }
+    }
+  },
+  "attributes": {
+    "displaycaseable": true,
+    "shelvable": true,
+    "handbook": {
+      "groupBy": ["foodcube-{state}"]
+    },
+    "bakingPropertiesByType": {
+      "foodcube-perfect": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.75,
+        "resultCode": "foodcube-burnt",
+        "initialCode": "rawfoodcube"
+      },
+      "foodcube-burnt": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0
+      }
+    }
+  },
+  "transitionableProps": {
+    "freshHours": 1440,
+    "transitionHours": 2880,
+    "rotHours": 5760
+  },
+  "storageFlags": "sealed, dry",
+  "nutritionPropsByType": {
+    "foodcube-perfect": {
+      "satiety": 300,
+      "foodcategory": "Grain"
+    },
+    "foodcube-burnt": {
+      "satiety": 40,
+      "foodcategory": "Grain"
+    }
+  },
+  "combustiblePropsByType": {
+    "foodcube-perfect": {
+      "meltingPoint": 200,
+      "meltingDuration": 20,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {"type": "item", "code": "foodcube-charred"},
+      "requiresContainer": false
+    }
+  },
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {"x": 0, "y": 0, "z": 0},
+    "rotation": {"x": -30, "y": 26, "z": 180},
+    "origin": {"x": 0.52, "y": 0.07, "z": 0.5},
+    "scale": 4.9
+  },
+  "groundTransform": {
+    "translation": {"x": 0, "y": 0, "z": 0},
+    "rotation": {"x": 0, "y": 0, "z": 0},
+    "origin": {"x": 0.5, "y": 0, "z": 0.5},
+    "scale": 4.5
+  },
+  "tpHandTransform": {
+    "translation": {"x": -0.54, "y": -0.16, "z": -0.4},
+    "rotation": {"x": 88, "y": -85, "z": 2},
+    "origin": {"x": 0.5, "y": 0.13, "z": 0.5},
+    "scale": 1
+  }
+}
