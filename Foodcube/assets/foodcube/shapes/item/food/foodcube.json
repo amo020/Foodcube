@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"allAngles": false,
-		"entityTextureMode": false
+		"entityTextureMode": true
 	},
 	"textureWidth": 8,
 	"textureHeight": 8,
@@ -14,6 +14,7 @@
 			"name": "origin",
 			"from": [ 8.0, 0.0, 8.0 ],
 			"to": [ 8.0, 0.0, 8.0 ],
+			"uv": [ 999.0, 999.0 ],
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "enabled": false },
@@ -28,14 +29,15 @@
 					"name": "foodcube",
 					"from": [ -2.0, 0.0, -2.0 ],
 					"to": [ 2.0, 4.0, 2.0 ],
+					"uv": [ 0.0, 0.0 ],
 					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
 					"faces": {
-						"north": { "texture": "#foodcube", "uv": [ 0.0, 4.0, 4.0, 8.0 ] },
-						"east": { "texture": "#foodcube", "uv": [ 3.5, 0.0, 7.5, 4.0 ] },
-						"south": { "texture": "#foodcube", "uv": [ 0.0, 3.0, 4.0, 7.0 ] },
-						"west": { "texture": "#foodcube", "uv": [ 3.0, 1.5, 7.0, 5.5 ] },
-						"up": { "texture": "#foodcube", "uv": [ 0.0, 1.5, 4.0, 5.5 ] },
-						"down": { "texture": "#foodcube", "uv": [ 0.0, 0.5, 4.0, 4.5 ] }
+						"north": { "texture": "#foodcube", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "windMode": [0,2,2,0] },
+						"east": { "texture": "#foodcube", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "windMode": [0,2,2,0] },
+						"south": { "texture": "#foodcube", "uv": [ 8.0, 4.0, 12.0, 8.0 ], "windMode": [0,0,2,2] },
+						"west": { "texture": "#foodcube", "uv": [ 12.0, 4.0, 16.0, 8.0 ], "windMode": [0,0,2,2] },
+						"up": { "texture": "#foodcube", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "windMode": [2,2,2,2] },
+						"down": { "texture": "#foodcube", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "windMode": [0,0,0,0] }
 					}
 				}
 			]
