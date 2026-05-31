@@ -26,6 +26,7 @@
     }
   },
   "attributes": {
+    "creativeinventory": true,
     "displaycaseable": true,
     "shelvable": true,
     "handbook": {

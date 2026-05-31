@@ -20,6 +20,6 @@
   },
   "output": {
     "type": "item",
-    "code": "game:rawfoodcube"
+    "code": "foodcube:rawfoodcube"
   }
 }
