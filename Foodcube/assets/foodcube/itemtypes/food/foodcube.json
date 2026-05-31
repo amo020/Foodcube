@@ -27,18 +27,14 @@
     }
   ],
   "shape": {
-    "foodcube": "item/food/foodcube"
+    "base": "item/food/foodcube"
   },
   "texturesbytype": {
     "foodcube-perfect": {
-      "foodcube": {
-        "foodcube": "item/food/foodcube"
-      }
+      "base": "item/food/foodcube"
     },
     "foodcube-burnt": {
-      "foodcube": {
-        "foodcube": "item/food/foodcube-burnt"
-      }
+      "base": "item/food/foodcube-burnt"
     }
   },
   "attributes": {

@@ -22,12 +22,10 @@
     }
   ],
   "shape": {
-    "foodcube": "item/food/foodcube"
+    "base": "item/food/foodcube"
   },
   "textures": {
-    "foodcube": {
-      "foodcube": "item/food/foodcube-raw"
-    }
+    "base": "item/food/foodcube-raw"
   },
   "attributes": {
     "displaycaseable": true,
