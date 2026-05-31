@@ -25,7 +25,9 @@
     "base": "item/food/foodcube"
   },
   "textures": {
-    "base": "item/food/foodcube-raw"
+    "base": {
+      "base": "item/food/foodcube-raw"
+    }
   },
   "attributes": {
     "displaycaseable": true,

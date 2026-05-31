@@ -31,10 +31,14 @@
   },
   "texturesbytype": {
     "foodcube-perfect": {
-      "base": "item/food/foodcube"
+      "base": {
+        "base": "item/food/foodcube"
+      }
     },
     "foodcube-burnt": {
-      "base": "item/food/foodcube-burnt"
+      "base": {
+        "base": "item/food/foodcube-burnt"
+      }
     }
   },
   "attributes": {
