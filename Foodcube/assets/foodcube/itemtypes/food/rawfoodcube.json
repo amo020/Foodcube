@@ -1,0 +1,71 @@
+{
+  "code": "rawfoodcube",
+  "maxstacksize": 64,
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "shape": {
+    "base": "game/shapes/item/food/bread/bread"
+  },
+  "textures": {
+    "bread": {
+      "base": "game/textures/item/food/grain/rye"
+    }
+  },
+  "attributes": {
+    "displaycaseable": true,
+    "shelvable": true,
+    "handbook": {
+      "groupBy": ["rawfoodcube"]
+    }
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": { "avg": 300 },
+      "spoilHours": { "avg": 100 },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 1
+    }
+  ],
+  "storageFlags": 3,
+  "nutritionProps": {
+    "satiety": 100,
+    "foodcategory": "Grain"
+  },
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {"x": 0, "y": 0, "z": 0},
+    "rotation": {"x": -30, "y": 26, "z": 180},
+    "origin": {"x": 0.52, "y": 0.07, "z": 0.5},
+    "scale": 4.9
+  },
+  "groundTransform": {
+    "translation": {"x": 0, "y": 0, "z": 0},
+    "rotation": {"x": 0, "y": 0, "z": 0},
+    "origin": {"x": 0.5, "y": 0, "z": 0.5},
+    "scale": 4.5
+  },
+  "tpHandTransform": {
+    "translation": {"x": -0.54, "y": -0.16, "z": -0.4},
+    "rotation": {"x": 88, "y": -85, "z": 2},
+    "origin": {"x": 0.5, "y": 0.13, "z": 0.5},
+    "scale": 1
+  }
+}

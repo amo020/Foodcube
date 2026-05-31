@@ -1,6 +1,5 @@
 {
   "code": "foodcube",
-  "class": "ItemFood",
   "maxstacksizeByType": {
     "*": 64
   },
@@ -11,30 +10,30 @@
     {
       "name": "GroundStorable",
       "properties": {
-        "layout": "Cubic",
+        "layout": "Quadrants",
         "collisionBox": {
           "x1": 0,
           "y1": 0,
           "z1": 0,
-          "x2": 0.333,
-          "y2": 0.333,
-          "z2": 0.333
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
         }
       }
     }
   ],
   "shape": {
-    "base": "item/food/foodcube/foodcube"
+    "base": "game/shapes/item/food/bread/bread"
   },
   "texturesbytype": {
     "foodcube-perfect": {
-      "foodcube": {
-        "base": "item/food/grain/foodcube"
+      "bread": {
+        "base": "game/textures/item/food/grain/rye"
       }
     },
     "foodcube-burnt": {
-      "foodcube": {
-        "base": "item/food/grain/foodcube_burnt"
+      "bread": {
+        "base": "game/textures/item/food/grain/rye_burnt"
       }
     }
   },
@@ -59,12 +58,19 @@
       }
     }
   },
-  "transitionableProps": {
-    "freshHours": 1440,
-    "transitionHours": 2880,
-    "rotHours": 5760
-  },
-  "storageFlags": "sealed, dry",
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": { "avg": 1440 },
+      "spoilHours": { "avg": 5760 },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 1
+    }
+  ],
+  "storageFlags": 3,
   "nutritionPropsByType": {
     "foodcube-perfect": {
       "satiety": 300,
