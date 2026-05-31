@@ -1,5 +1,9 @@
 {
   "code": "foodcube",
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
   "maxstacksizeByType": {
     "*": 64
   },
@@ -23,22 +27,21 @@
     }
   ],
   "shape": {
-    "base": "game/shapes/item/food/bread/bread"
+    "base": "item/food/foodcube"
   },
   "texturesbytype": {
     "foodcube-perfect": {
       "bread": {
-        "base": "game/textures/item/food/grain/rye"
+        "base": "item/food/foodcube"
       }
     },
     "foodcube-burnt": {
       "bread": {
-        "base": "game/textures/item/food/grain/rye_burnt"
+        "base": "item/food/foodcube-burnt"
       }
     }
   },
   "attributes": {
-    "creativeinventory": true,
     "displaycaseable": true,
     "shelvable": true,
     "handbook": {
@@ -88,7 +91,7 @@
       "meltingDuration": 20,
       "smeltedRatio": 1,
       "smeltingType": "bake",
-      "smeltedStack": {"type": "item", "code": "foodcube-charred"},
+      "smeltedStack": {"type": "item", "code": "foodcube-burnt"},
       "requiresContainer": false
     }
   },
