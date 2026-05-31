@@ -22,11 +22,11 @@
     }
   ],
   "shape": {
-    "base": "item/food/foodcube"
+    "foodcube": "item/food/foodcube"
   },
   "textures": {
-    "bread": {
-      "base": "item/food/foodcube-raw"
+    "foodcube": {
+      "foodcube": "item/food/foodcube-raw"
     }
   },
   "attributes": {
