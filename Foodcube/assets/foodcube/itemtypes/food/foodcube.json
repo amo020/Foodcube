@@ -14,16 +14,15 @@
     {
       "name": "GroundStorable",
       "properties": {
-        "layout": "Quadrants",
-        "collisionBox": {
-          "x1": 0,
-          "y1": 0,
-          "z1": 0,
-          "x2": 1,
-          "y2": 0.125,
-          "z2": 1
-        }
-      }
+				"layout": "Stacking",
+				"placeRemoveSound": "sounds/wetshrip",
+				"stackingModel": "item/food/foodcube-pile",
+				"stackingCapacity": 9,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.12, "z2": 1 },
+				"cbScaleYByLayer": 0.2
+			}
     }
   ],
   "shape": {
