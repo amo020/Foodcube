@@ -17,7 +17,7 @@
   "name": "raw foodcube",
   "output": {
     "type": "item",
-    "code": "foodcube:rawfoodcube",
+    "code": "foodcube:foodcube-raw",
     "quantity": 1
   }
 }

@@ -1,3 +1,5 @@
 {
-    "hello": "hello world!"
+    "item-foodcube-raw": "Raw Foodcube",
+    "item-foodcube-perfect": "Foodcube",
+    "item-foodcube-burnt": "Burnt Foodcube"
 }

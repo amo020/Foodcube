@@ -74,7 +74,6 @@
       "transitionRatio": 1
     }
   ],
-  "storageFlags": 3,
   "nutritionPropsByType": {
     "foodcube-perfect": {
       "satiety": 300,
@@ -100,7 +99,7 @@
     "translation": {"x": 0, "y": 0, "z": 0},
     "rotation": {"x": -30, "y": 26, "z": 180},
     "origin": {"x": 0.52, "y": 0.07, "z": 0.5},
-    "scale": 4.9
+    "scale": 3.5
   },
   "groundTransform": {
     "translation": {"x": 0, "y": 0, "z": 0},
