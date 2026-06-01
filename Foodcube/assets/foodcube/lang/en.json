@@ -1,5 +1,14 @@
 {
     "item-foodcube-raw": "Raw Foodcube",
     "item-foodcube-perfect": "Foodcube",
-    "item-foodcube-burnt": "Burnt Foodcube"
+    "item-foodcube-burnt": "Burnt Foodcube",
+
+    "raw-foodcube-handbook-help-title": "How to cook",
+    "raw-foodcube-handbook-help-text": "Place the raw foodcube in an oven",
+
+    "perfect-foodcube-handbook-help-title": "Foodcube",
+    "perfect-foodcube-handbook-help-text": "Filling yet unsatifying. You can bake it again to get a burnt foodcube, but that would be a waste of good food.",
+    
+    "burnt-foodcube-handbook-help-title": "Burnt Foodcube",
+    "burnt-foodcube-handbook-help-text": "Overcooked and inedible."
 }

@@ -33,7 +33,19 @@
     "displaycaseable": true,
     "shelvable": true,
     "handbook": {
+      "extraSections": [{ 
+        "title": "raw-foodcube-handbook-help-title",
+        "text": "raw-foodcube-handbook-help-text"
+      }],
       "groupBy": ["foodcube-raw"]
+    },
+    "bakingProperties": {
+      "temp": 160,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 0.9,
+      "endScaleY": 0.95,
+      "resultCode": "foodcube-perfect"
     }
   },
   "transitionableProps": [
@@ -52,17 +64,15 @@
     "satiety": 100,
     "foodcategory": "Grain"
   },
-  "combustiblePropsByType": {
-    "foodcube-raw": {
-      "meltingPoint": 200,
-      "meltingDuration": 20,
-      "smeltedRatio": 1,
-      "smeltingType": "bake",
-      "smeltedStack": {"type": "item", "code": "foodcube-perfect"},
-      "requiresContainer": false
-    }
-  },
   "materialDensity": 200,
+  "combustibleProps": {
+    "meltingPoint": 200,
+    "meltingDuration": 20,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": { "type": "item", "code": "foodcube-burnt" },
+    "requiresContainer": false
+  },
   "guiTransform": {
     "translation": {"x": 0, "y": 0, "z": 0},
     "rotation": {"x": -30, "y": 26, "z": 180},

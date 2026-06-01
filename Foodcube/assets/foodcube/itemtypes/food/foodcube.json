@@ -44,20 +44,39 @@
     "displaycaseable": true,
     "shelvable": true,
     "handbook": {
+      "extraSections": [{ 
+        "title": "{state}-foodcube-handbook-help-title",
+        "text": "{state}-foodcube-handbook-help-text"
+      }],
       "groupBy": ["foodcube-{state}"]
     },
     "bakingPropertiesByType": {
       "foodcube-perfect": {
-        "temp": 150,
-        "levelFrom": 0.0,
-        "levelTo": 0.75,
-        "resultCode": "foodcube-burnt",
-        "initialCode": "rawfoodcube"
-      },
-      "foodcube-burnt": {
-        "temp": 150,
-        "levelFrom": 0.75,
-        "levelTo": 1.0
+				"temp": 160,
+				"levelFrom": 0.25,
+				"levelTo": 0.75,
+				"startScaleY": 0.95,
+				"endScaleY": 1.13,
+				"resultCode": "foodcube-burnt",
+				"initialCode": "foodcube:foodcube-raw"
+			},
+			"foodcube-burnt": {
+				"temp": 160,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 1.13,
+				"endScaleY": 1.10,
+				"initialCode": "foodcube-perfect"
+			}
+    },
+    "combustiblePropsByType": {
+      "foodcube-perfect": {
+        "meltingPoint": 200,
+        "meltingDuration": 15,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": { "type": "item", "code": "foodcube-burnt" },
+        "requiresContainer": false
       }
     }
   },
@@ -75,22 +94,12 @@
   ],
   "nutritionPropsByType": {
     "foodcube-perfect": {
-      "satiety": 300,
+      "satiety": 950,
       "foodcategory": "Grain"
     },
     "foodcube-burnt": {
-      "satiety": 40,
+      "satiety": 150,
       "foodcategory": "Grain"
-    }
-  },
-  "combustiblePropsByType": {
-    "foodcube-perfect": {
-      "meltingPoint": 200,
-      "meltingDuration": 20,
-      "smeltedRatio": 1,
-      "smeltingType": "bake",
-      "smeltedStack": {"type": "item", "code": "foodcube-burnt"},
-      "requiresContainer": false
     }
   },
   "materialDensity": 200,
