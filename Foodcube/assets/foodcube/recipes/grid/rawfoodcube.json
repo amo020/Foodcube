@@ -1,0 +1,23 @@
+{
+  "ingredientPattern": "VVV,VDV,VVV",
+  "ingredients": {
+    "V": {
+      "type": "item",
+      "code": "game:vegetable-*",
+      "quantity": 1
+    },
+    "D": {
+      "type": "item",
+      "code": "game:dough-*",
+      "quantity": 1
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "name": "raw foodcube",
+  "output": {
+    "type": "item",
+    "code": "foodcube:rawfoodcube",
+    "quantity": 1
+  }
+}
