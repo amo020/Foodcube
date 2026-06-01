@@ -26,19 +26,18 @@
 			"children": [
 				{
 					"name": "foodcube",
-					"from": [ -2.0, 0.0, -2.0 ],
-					"to": [ 2.0, 4.0, 2.0 ],
-					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"from": [ -3.0, 0.0, -3.0 ],
+					"to": [ 3.0, 6.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.0, -1.0 ],
 					"faces": {
-						"north": { "texture": "#base", "uv": [ 0.0, 4.0, 4.0, 8.0 ] },
-						"east": { "texture": "#base", "uv": [ 4.0, 4.0, 8.0, 8.0 ] },
-						"south": { "texture": "#base", "uv": [ 0.0, 4.0, 4.0, 8.0 ] },
-						"west": { "texture": "#base", "uv": [ 4.0, 4.0, 8.0, 8.0 ] },
-						"up": { "texture": "#base", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
-						"down": { "texture": "#base", "uv": [ 4.0, 0.0, 8.0, 4.0 ] }
+						"north": { "texture": "#base", "uv": [ 0.0, 2.0, 6.0, 8.0 ] },
+						"east": { "texture": "#base", "uv": [ 2.0, 0.0, 8.0, 6.0 ] },
+						"south": { "texture": "#base", "uv": [ 0.0, 2.0, 6.0, 8.0 ] },
+						"west": { "texture": "#base", "uv": [ 2.0, 2.0, 8.0, 8.0 ] },
+						"up": { "texture": "#base", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+						"down": { "texture": "#base", "uv": [ 2.0, 0.0, 8.0, 6.0 ] }
 					}
 				}
 			]
 		}
-	]
-}
+	]}
