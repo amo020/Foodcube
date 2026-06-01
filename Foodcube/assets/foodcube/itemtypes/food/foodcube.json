@@ -15,7 +15,7 @@
       "name": "GroundStorable",
       "properties": {
 				"layout": "Stacking",
-				"placeRemoveSound": "sounds/wetshrip",
+				"placeRemoveSound": "foodcube:sounds/wetshrip",
 				"stackingModel": "item/food/foodcube-pile",
 				"stackingCapacity": 9,
 				"transferQuantity": 1,
