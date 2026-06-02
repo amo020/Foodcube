@@ -7,7 +7,7 @@
   "description": "Introduces the Kenshi Foodcube, a compact and efficient food source for survivalists.",
   "version": "0.3.0",
   "dependencies": {
-    "game": "1.22.2",
-    "survival": "1.22.2"
+    "game": "1.22.3",
+    "survival": "1.22.3"
   }
 }
