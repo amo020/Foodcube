@@ -32,14 +32,6 @@
   "attributes": {
     "displaycaseable": true,
     "shelvable": true,
-    "handbook": {
-      "extraSections": [
-        {
-          "title": "foodcube:raw-foodcube-handbook-help-title",
-          "text": "foodcube:raw-foodcube-handbook-help-text"
-        }
-      ]
-    },
     "bakingProperties": {
       "temp": 160,
       "levelFrom": 0.0,

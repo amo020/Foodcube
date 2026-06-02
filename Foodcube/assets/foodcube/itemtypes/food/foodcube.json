@@ -44,12 +44,12 @@
     "shelvable": true,
     "handbook": {
       "extraSectionByType": {
-        "foodcube-*": [{
-          "title": "foodcube:{state}-foodcube-handbook-help-title",
-          "text": "foodcube:{state}-foodcube-handbook-help-text"
+        "foodcube-perfect": [{
+          "title": "foodcube:perfect-foodcube-handbook-help-title",
+          "text": "foodcube:perfect-foodcube-handbook-help-text"
           }]
       },
-      "groupBy": ["foodcube-{state}"]
+      "groupBy": ["foodcube-*"]
     },
     "bakingPropertiesByType": {
       "foodcube-perfect": {
