@@ -45,8 +45,8 @@
     "handbook": {
       "extraSectionByType": {
         "foodcube-*": [{
-          "title": "{state}-foodcube-handbook-help-title",
-          "text": "{state}-foodcube-handbook-help-text"
+          "title": "foodcube:{state}-foodcube-handbook-help-title",
+          "text": "foodcube:{state}-foodcube-handbook-help-text"
           }]
       },
       "groupBy": ["foodcube-{state}"]
@@ -59,7 +59,7 @@
 				"startScaleY": 0.95,
 				"endScaleY": 1.13,
 				"resultCode": "foodcube:foodcube-burnt",
-				"initialCode": "foodcube:foodcube:foodcube-raw"
+				"initialCode": "foodcube:foodcube-raw"
 			},
 			"foodcube-burnt": {
 				"temp": 160,

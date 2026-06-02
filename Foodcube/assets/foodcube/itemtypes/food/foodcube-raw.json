@@ -35,8 +35,8 @@
     "handbook": {
       "extraSections": [
         {
-          "title": "raw-foodcube-handbook-help-title",
-          "text": "raw-foodcube-handbook-help-text"
+          "title": "foodcube:raw-foodcube-handbook-help-title",
+          "text": "foodcube:raw-foodcube-handbook-help-text"
         }
       ]
     },
