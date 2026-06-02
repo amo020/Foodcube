@@ -328,6 +328,7 @@ __pycache__/
 
 # Cake build tool
 ZZCakeBuild/
+CakeBuild/
 build.ps1
 
 # Tabs Studio

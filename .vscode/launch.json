@@ -6,6 +6,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/Foodcube/Foodcube.csproj"
+        },
+        {
+            "name": "C#: Foodcube Release",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/CakeBuild/CakeBuild.csproj"
         }
     ]
 }
