@@ -43,10 +43,12 @@
     "displaycaseable": true,
     "shelvable": true,
     "handbook": {
-      "extraSections": [{ 
-        "title": "{state}-foodcube-handbook-help-title",
-        "text": "{state}-foodcube-handbook-help-text"
-      }],
+      "extraSectionByType": {
+        "foodcube-*": [{
+          "title": "{state}-foodcube-handbook-help-title",
+          "text": "{state}-foodcube-handbook-help-text"
+          }]
+      },
       "groupBy": ["foodcube-{state}"]
     },
     "bakingPropertiesByType": {
@@ -56,8 +58,8 @@
 				"levelTo": 0.75,
 				"startScaleY": 0.95,
 				"endScaleY": 1.13,
-				"resultCode": "foodcube-burnt",
-				"initialCode": "foodcube:foodcube-raw"
+				"resultCode": "foodcube:foodcube-burnt",
+				"initialCode": "foodcube:foodcube:foodcube-raw"
 			},
 			"foodcube-burnt": {
 				"temp": 160,
@@ -65,7 +67,7 @@
 				"levelTo": 1,
 				"startScaleY": 1.13,
 				"endScaleY": 1.10,
-				"initialCode": "foodcube-perfect"
+				"initialCode": "foodcube:foodcube-perfect"
 			}
     },
     "combustiblePropsByType": {
@@ -74,7 +76,7 @@
         "meltingDuration": 15,
         "smeltedRatio": 1,
         "smeltingType": "bake",
-        "smeltedStack": { "type": "item", "code": "foodcube-burnt" },
+        "smeltedStack": { "type": "item", "code": "foodcube:foodcube-burnt" },
         "requiresContainer": false
       }
     }
