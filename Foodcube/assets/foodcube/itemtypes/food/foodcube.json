@@ -15,13 +15,12 @@
       "name": "GroundStorable",
       "properties": {
 				"layout": "Stacking",
-				"placeRemoveSound": "foodcube:sounds/wetshrip",
 				"stackingModel": "item/food/foodcube-pile",
-				"stackingCapacity": 9,
+				"stackingCapacity": 27,
 				"transferQuantity": 1,
-				"bulkTransferQuantity": 5,
-				"collisionBox": { "x1": 0.05, "y1": 0, "z1": 0.05, "x2": 0.95, "y2": 0.333, "z2": 0.95 },
-				"cbScaleYByLayer": 0.333
+				"bulkTransferQuantity": 9,
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.333, "z2": 1 },
+			  "cbScaleYByLayer": 0.105
 			}
     }
   ],
@@ -83,7 +82,7 @@
   "transitionableProps": [
     {
       "type": "Perish",
-      "freshHours": { "avg": 1440 },
+      "freshHours": { "avg": 2500 },
       "spoilHours": { "avg": 5760 },
       "transitionedStack": {
         "type": "item",
@@ -94,7 +93,7 @@
   ],
   "nutritionPropsByType": {
     "foodcube-perfect": {
-      "satiety": 950,
+      "satiety": 1400,
       "foodcategory": "Grain"
     },
     "foodcube-burnt": {
