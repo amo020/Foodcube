@@ -82,7 +82,7 @@
   "transitionableProps": [
     {
       "type": "Perish",
-      "freshHours": { "avg": 1440 },
+      "freshHours": { "avg": 2500 },
       "spoilHours": { "avg": 5760 },
       "transitionedStack": {
         "type": "item",
@@ -93,7 +93,7 @@
   ],
   "nutritionPropsByType": {
     "foodcube-perfect": {
-      "satiety": 950,
+      "satiety": 1400,
       "foodcategory": "Grain"
     },
     "foodcube-burnt": {
