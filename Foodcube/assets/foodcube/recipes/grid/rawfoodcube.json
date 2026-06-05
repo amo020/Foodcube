@@ -1,23 +1,49 @@
-{
-  "ingredientPattern": "VVV,VDV,VVV",
-  "ingredients": {
-    "V": {
-      "type": "item",
-      "code": "game:vegetable-*",
-      "quantity": 1
+[
+  {
+    "ingredientPattern": "VVV,VDV,VVV",
+    "ingredients": {
+      "V": {
+        "type": "item",
+        "code": "game:vegetable-*",
+        "allowedVariants": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "cookedcattailroot", "pumpkin", "cassava", "bellpepper", "olive" ],
+        "quantity": 1
+      },
+      "D": {
+        "type": "item",
+        "code": "game:dough-*",
+        "quantity": 1
+      }
     },
-    "D": {
+    "width": 3,
+    "height": 3,
+    "name": "raw foodcube",
+    "output": {
       "type": "item",
-      "code": "game:dough-*",
+      "code": "foodcube:foodcube-raw",
       "quantity": 1
     }
   },
-  "width": 3,
-  "height": 3,
-  "name": "raw foodcube",
-  "output": {
-    "type": "item",
-    "code": "foodcube:foodcube-raw",
-    "quantity": 1
+  {
+    "ingredientPattern": "FFF,FDF,FFF",
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "game:vegetable-fennel",
+        "quantity": 2
+      },
+      "D": {
+        "type": "item",
+        "code": "game:dough-*",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "raw foodcube",
+    "output": {
+      "type": "item",
+      "code": "foodcube:foodcube-raw",
+      "quantity": 1
+    }
   }
-}
+]
