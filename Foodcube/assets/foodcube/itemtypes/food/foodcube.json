@@ -95,7 +95,7 @@
   ],
   "nutritionPropsByType": {
     "foodcube-perfect": {
-      "satiety": 1400,
+      "satiety": 1050,
       "foodcategory": "Grain"
     },
     "foodcube-burnt": {
