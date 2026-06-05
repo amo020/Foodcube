@@ -7,7 +7,7 @@ Adds the legendary **Foodcube** from *Kenshi* to **Vintage Story**.
 ## Crafting
 
 * 1× Dough
-* 8× Vegetables
+* 8× Vegetables (Times 2 for Fennels)
 
 Bake it into a dense, nutritious brick of agricultural efficiency.
 
